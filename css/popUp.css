@@ -1,0 +1,64 @@
+#mascara {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9000;
+	background-color:#000;
+	display:none;
+}
+
+.fechar {
+	display:block;
+	text-align:right;
+	font-weight: bold;	
+	padding: 8px;
+}
+
+.tituloJanela {
+	width: 600px;
+	height: 26px;
+	background-color: #4ca391;
+}
+
+.btnOK {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+#janelaMsg {
+	display:none;
+	width:600px;
+	height:auto;
+	position:absolute;
+	background-color: rgb(255,255,255);
+	z-index:9900;
+	padding:0;
+	margin: 0;
+	text-align: center;
+	top: 0;
+    left: 0;
+}
+
+#janelaMsg h3 {
+	color: white;
+	padding: 3px;
+	margin:0;
+	text-align: left;
+	float: left;
+}
+
+#janelaMsg a {
+	color: white;
+	text-decoration: none;
+	padding: 3px;
+	margin: 0;
+	float: right;
+}
+
+#janelaMsg p {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
